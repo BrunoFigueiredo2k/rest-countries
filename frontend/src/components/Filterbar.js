@@ -9,13 +9,13 @@ function Filterbar() {
     }
 
     const filterByRegion = () => {
-        
+
     }
 
     return (
         <div className="row">
             <div className="col-lg-6">
-                <input type="text" placeholder="Search for a country..." onKeyDown={handleKeyDownSearch} className="search-input"/>
+                <i class="fas fa-search"></i><input type="text" placeholder="Search for a country..." onKeyDown={handleKeyDownSearch} className="search-input"/>
             </div>
             <div className="col-lg-6">
             <select className="dropdown-filter" onChnage={filterByRegion}>

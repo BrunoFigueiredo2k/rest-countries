@@ -1,9 +1,12 @@
 import React from 'react'
 
-function CountriesList() {
+function CountriesList(props) {
     return (
-        <div>
-            
+        <div className="row">
+            //TODO: get countries and loop through them here, render dynamically
+            {/* props.movies.map(movie => {
+                return <Movie key={movie.id} movie={movie} genres={genres}/>
+            }) */}
         </div>
     )
 }
