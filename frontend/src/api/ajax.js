@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 /** GET REQUEST */
-export const getData = async (url) => {
+export const getData = async (url) =>{
 	const {data} = await axios.get(url);
 	return data;
 };

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function CountryPage(props) {
     return (
-        <div>
+        <div className="section">
             <Link to="/">Back</Link>
             <div className="row">
                 <div className="col-lg-6">

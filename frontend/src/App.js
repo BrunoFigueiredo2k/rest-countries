@@ -3,7 +3,7 @@ import './css/App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from './components/Header';
 import Home from './pages/Home';
-import Home from './pages/CountryPage';
+import CountryPage from './pages/CountryPage';
 
 function App() {
   return (

@@ -7,14 +7,9 @@ function Header() {
     } 
 
     return (
-        <div className="container">
-            <div className="row header">
-                <div className="col-6">
-                    <h1>Where in the world?</h1>
-                </div>
-                <div className="col-6">
-                    <button onClick={{toggleDarkLightMode}}>Dark Mode</button>
-                </div>
+        <div className="header">
+            <div className="container">
+                <h1 style={{fontWeight: '800', fontSize: '34px'}}>Where in the world? <button className="header-btn" onClick={{toggleDarkLightMode}}>Dark Mode</button></h1>
             </div>
         </div>
     )

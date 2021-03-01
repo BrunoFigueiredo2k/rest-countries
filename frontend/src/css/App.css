@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+/** VARIABLES **/
+:root {
+  --dark-blue: hsl(209, 23%, 22%);
+  --dark-mode-bg: hsl(207, 26%, 17%);
+  --light-mode-txt: hsl(200, 15%, 8%);
+  --light-mode-input: hsl(0, 0%, 52%);
+  --light-mode-bg: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/** ELEMENTS **/
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -13,6 +24,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-family: 'Nunito Sans', sans-serif;
+  color: var(--light-mode-txt);
 }
 
 ol, ul {
@@ -29,14 +41,47 @@ img {
   width: 80%;
 }
 
+.section{
+  padding: 6% 0;
+  width: 100%;
+  background-color: var(--light-mode-bg);
+}
+
 .header{
   padding: 20px 0;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+  z-index: 99999 !important;
+}
+
+.header-btn{
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  float: right;
 }
 
 .search-input{
-
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
+  padding: 13px 20px;
+  width: 90%;
 }
 
 .dropdown-filter{
+  float: right;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
+  padding: 13px 20px;
+}
 
+.card-country{
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
 }
